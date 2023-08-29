@@ -16,3 +16,7 @@ Native Template versions [5.0](/releasenotes/mobile/nt-5.0-rn/) and [5.1](/relea
 
 Please use a Native Template version compatible with the latest Studio Pro [8.18.x](/releasenotes/studio-pro/8.18/) patch release.
 {{% /alert %}}
+
+{{% alert color="warning" %}}
+The latest version of Native Template 5.2 targets Android 11 (API level 30). To target Android 13 (API level 33) (or higher), you can update the compileSdkVersion en targetSdkVersion to 33 in the build.gradle file and update your dependencies (as is done in step 2 of [this document](https://www.mendix.com/blog/update-needed-for-android-native-mobile-apps/). 
+{{% /alert %}}
